@@ -24,3 +24,29 @@
 ####更改`Caps Lock`键为`Control`键
 
 `系统偏好设置->键盘->修饰键`，将`Caps Lock`键改为`^Control`
+
+###工具
+
+####[Homebrew]
+
+安装Homebrew
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+安装常用的开发工具
+
+```
+brew install mysql gradle maven node
+```
+####[Homebrew Cask]
+
+安装常用的软件
+
+```
+brew cask install [软件名]
+```
+
+[Homebrew]: http://brew.sh/
+[Homebrew Cask]: http://caskroom.io/
