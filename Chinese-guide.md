@@ -47,6 +47,9 @@ brew install mysql gradle maven node
 ```
 brew cask install [软件名]
 ```
+```
+brew cask install google-chrome 
+```
 
 [Homebrew]: http://brew.sh/
 [Homebrew Cask]: http://caskroom.io/
