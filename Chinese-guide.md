@@ -15,7 +15,7 @@
 
 ####Trackpad轻点来点按
 
-`系统偏好设置->触控板－>光标与点按｀，勾选｀轻点来点按｀
+`系统偏好设置->触控板－>光标与点按`，勾选`轻点来点按`
 
 ####Dock
 
@@ -25,31 +25,91 @@
 
 `系统偏好设置->键盘->修饰键`，将`Caps Lock`键改为`^Control`
 
-###工具
+####触发角
+
+`系统偏好设置->桌面与屏幕保护程序->触发角`，将右下角设置为`将显示器置入睡眠状态`
+
+###工具与软件
 
 ####[Homebrew]
 
 安装Homebrew
 
-```
+```shell
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 安装常用的开发工具
 
-```
+```shell
 brew install mysql gradle maven node
 ```
 ####[Homebrew Cask]
 
 安装常用的软件
 
+```shell
+brew cask install google-chrome intellij-idea macdown atom
 ```
-brew cask install [软件名]
+
+####[Oh My Zsh]
+
+```shell
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+
+plugins=(git z)
+
+ZSH_THEME="agnosterzak"
+
+source ~/.zshenv
+
+####Moom调节窗口大小
+
+```shell
+brew cask install moom
 ```
-brew cask install google-chrome 
+
+####CheatSheet显示快捷键
+
+```shell
+brew cask install cheatsheet
 ```
+
+####[Atom]编辑器
+
+```shell
+brew cask install atom
+```
+
+###[MacDown]
+
+```shell
+brew cask instll macdown
+```
+
+####[Vimium]
+
+Google Chrome Vimium插件
+
+####[Manico]切换应用
+
+```shell
+brew cask install manico
+```
+
+####[Shortcat]快捷访问
+
+```shell
+brew cask install shortcat
+```
+
 
 [Homebrew]: http://brew.sh/
 [Homebrew Cask]: http://caskroom.io/
+[Oh My Zsh]: http://ohmyz.sh/
+[Vimium]: https://vimium.github.io/
+[MacDown]: https://github.com/MacDownApp/macdown
+[Atom]: https://github.com/atom/atom
+[Manico]: https://manico.im/
+[Shortcat]: https://shortcatapp.com/
