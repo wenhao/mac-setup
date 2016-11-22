@@ -60,6 +60,7 @@ brew  install jenv
 把下面内容加入到.zshrc文件内
 
 if which jenv > /dev/null; then eval "$(jenv init -)"; fi
+
 export JENV_ROOT=/usr/local/opt/jenv
 
 ```shell
