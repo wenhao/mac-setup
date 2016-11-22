@@ -52,6 +52,22 @@ brew install mysql gradle maven node
 brew cask install google-chrome intellij-idea macdown atom
 ```
 
+####[jenv]
+
+```shell
+brew  install jenv
+```
+把下面内容加入到.zshrc文件内
+# To enable shims and autocompletion add to your profile:
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi
+
+# To use Homebrew's directories rather than ~/.jenv add to your profile:
+export JENV_ROOT=/usr/local/opt/jenv
+
+```shell
+jenv add <jdk home path>
+```
+
 ####[Oh My Zsh]
 
 ```shell
