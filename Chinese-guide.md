@@ -123,6 +123,7 @@ brew cask install shortcat
 
 [Homebrew]: http://brew.sh/
 [Homebrew Cask]: http://caskroom.io/
+[jenv]: http://www.jenv.be/
 [Oh My Zsh]: http://ohmyz.sh/
 [Vimium]: https://vimium.github.io/
 [MacDown]: https://github.com/MacDownApp/macdown
