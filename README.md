@@ -83,13 +83,13 @@ ZSH_THEME="agnosterzak"
 
 source ~/.zshenv
 
-####Moom调节窗口大小
+####[Moom]调节窗口大小
 
 ```shell
 brew cask install moom
 ```
 
-####CheatSheet显示快捷键
+####[CheatSheet]显示快捷键
 
 ```shell
 brew cask install cheatsheet
@@ -133,3 +133,5 @@ brew cask install shortcat
 [Atom]: https://github.com/atom/atom
 [Manico]: https://manico.im/
 [Shortcat]: https://shortcatapp.com/
+[Moom]: https://manytricks.com/moom/
+[CheatSheet]: https://www.mediaatelier.com/CheatSheet/
