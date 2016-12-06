@@ -123,6 +123,21 @@ brew cask install manico
 brew cask install shortcat
 ```
 
+####[Bartender 2]二级菜单
+
+```shell
+brew cask install bartender
+```
+
+####[ShiftIt]窗口管理工具
+
+```shell
+brew cask install shiftit
+```
+
+####[Boom]可以增大音量和增强音效
+
+####[jitouch]手势神器
 
 [Homebrew]: http://brew.sh/
 [Homebrew Cask]: http://caskroom.io/
@@ -135,3 +150,7 @@ brew cask install shortcat
 [Shortcat]: https://shortcatapp.com/
 [Moom]: https://manytricks.com/moom/
 [CheatSheet]: https://www.mediaatelier.com/CheatSheet/
+[ShiftIt]: https://github.com/fikovnik/ShiftIt
+[Bartender 2]: https://www.macbartender.com/
+[Boom]: http://www.globaldelight.com/boom/lang/chn/index.php
+[jitouch]: https://www.jitouch.com/
