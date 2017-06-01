@@ -139,6 +139,12 @@ brew cask install shiftit
 
 #### [jitouch]手势神器
 
+#### [Usage]统计软件使用时长
+
+```shell
+brew cask install usage
+```
+
 [Homebrew]: http://brew.sh/
 [Homebrew Cask]: http://caskroom.io/
 [jenv]: http://www.jenv.be/
@@ -154,3 +160,4 @@ brew cask install shiftit
 [Bartender 2]: https://www.macbartender.com/
 [Boom]: http://www.globaldelight.com/boom/lang/chn/index.php
 [jitouch]: https://www.jitouch.com/
+[Usage]: https://www.cheatsheetapp.com/Usage/?lang=en
